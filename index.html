@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rhizoma — Rede de psicólogos supervisionados</title>
+<meta name="description" content="Uma rede fechada de psicólogos supervisionados por mestres e doutores. Atendimento de qualidade com acompanhamento contínuo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --purple-900: #1a0a2e;
+  --purple-700: #331c52;
+  --purple-500: #553080;
+  --purple-400: #7a5aa0;
+  --purple-200: #c9b8db;
+  --purple-100: #e8dff0;
+  --purple-50: #f5f1f9;
+  --cream: #faf6f0;
+  --text-primary: #1c1a1f;
+  --text-secondary: #4a4550;
+  --text-muted: #7a7580;
+  --green: #3d8b5e;
+  --font-display: 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+html { font-size: 16px; -webkit-font-smoothing: antialiased; }
+
+body {
+  font-family: var(--font-body);
+  color: var(--text-primary);
+  background: var(--cream);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+}
+
+.container {
+  max-width: 560px;
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.75rem;
+  color: var(--purple-900);
+  letter-spacing: -0.03em;
+  margin-bottom: 2.5rem;
+}
+
+h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  color: var(--text-primary);
+  line-height: 1.25;
+  margin-bottom: 1.25rem;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+  margin-bottom: 3rem;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.875rem;
+  padding: 1rem 1.25rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(28,26,31,0.06);
+}
+
+.feature-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: var(--purple-50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.feature-icon svg {
+  width: 18px;
+  height: 18px;
+  color: var(--purple-500);
+}
+
+.feature-text h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.9375rem;
+  color: var(--text-primary);
+  margin-bottom: 0.2rem;
+}
+
+.feature-text p {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.divider {
+  width: 48px;
+  height: 2px;
+  background: var(--purple-200);
+  border-radius: 1px;
+  margin: 0 auto 1.5rem;
+}
+
+.footer-text {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.footer-text strong {
+  color: var(--text-secondary);
+}
+
+@media (max-width: 480px) {
+  .feature { padding: 0.875rem 1rem; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="logo">rhizoma</div>
+
+  <h1>Uma rede fechada de psicólogos supervisionados</h1>
+
+  <p class="subtitle">
+    Mestres e doutores acompanham cada caso. Pacientes chegam por matching automático. Qualidade garantida por supervisão contínua.
+  </p>
+
+  <div class="features">
+    <div class="feature">
+      <div class="feature-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+      </div>
+      <div class="feature-text">
+        <h3>Supervisão por mestres e doutores</h3>
+        <p>Seus casos acompanhados por profissionais com formação acadêmica avançada.</p>
+      </div>
+    </div>
+
+    <div class="feature">
+      <div class="feature-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      </div>
+      <div class="feature-text">
+        <h3>Pacientes por matching automático</h3>
+        <p>Pacientes chegam até você com base no seu perfil e disponibilidade.</p>
+      </div>
+    </div>
+
+    <div class="feature">
+      <div class="feature-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      </div>
+      <div class="feature-text">
+        <h3>Rede fechada por indicação</h3>
+        <p>Cresce organicamente. Cada profissional é indicado e aprovado pela equipe.</p>
+      </div>
+    </div>
+
+    <div class="feature">
+      <div class="feature-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+      </div>
+      <div class="feature-text">
+        <h3>Split e nota fiscal automáticos</h3>
+        <p>Sem esforço manual. O financeiro funciona sozinho.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <p class="footer-text">
+    <strong>Acesso por convite.</strong> Em breve, mais informações.
+  </p>
+</div>
+
+</body>
+</html>
