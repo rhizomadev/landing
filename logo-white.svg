@@ -1,12 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 100" fill="none">
-  <!-- Labyrinth mark — white version for dark backgrounds -->
-  <g transform="translate(50, 50)">
-    <path d="M0 -38 A38 38 0 1 1 -38 0 L-38 -8" stroke="#faf6f0" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-    <path d="M0 -26 A26 26 0 1 1 -26 0 L-26 -8" stroke="#c9b8db" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-    <path d="M0 -14 A14 14 0 1 1 -14 0 L-14 -8" stroke="#a48cc0" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-    <circle cx="0" cy="0" r="4" fill="#c9b8db"/>
-    <line x1="3" y1="-3" x2="10" y2="-26" stroke="#e8dff0" stroke-width="2" stroke-linecap="round"/>
-    <line x1="4" y1="1" x2="22" y2="14" stroke="#e8dff0" stroke-width="2" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 100" fill="none">
+  <g transform="translate(12, 50)">
+    <path d="M8 0 Q20 -12 32 -8" stroke="#c9b8db" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M8 0 Q14 10 28 12" stroke="#a48cc0" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M32 -8 Q42 -20 56 -18" stroke="#c9b8db" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M32 -8 Q38 2 28 12" stroke="#e8dff0" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M28 12 Q40 18 52 10" stroke="#c9b8db" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M28 12 Q22 24 32 30" stroke="#a48cc0" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M56 -18 Q68 -24 78 -14" stroke="#a48cc0" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M56 -18 Q62 -6 52 10" stroke="#e8dff0" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M52 10 Q64 6 78 -14" stroke="#c9b8db" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M52 10 Q58 22 68 24" stroke="#a48cc0" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M32 30 Q44 28 52 10" stroke="#e8dff0" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+    <path d="M78 -14 Q88 -4 82 8" stroke="#e8dff0" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M68 24 Q76 16 82 8" stroke="#c9b8db" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M8 0 Q2 -8 -4 -14" stroke="#e8dff0" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <path d="M8 0 Q0 6 -6 12" stroke="#e8dff0" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <path d="M56 -18 Q54 -28 48 -34" stroke="#e8dff0" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <path d="M78 -14 Q86 -22 90 -28" stroke="#e8dff0" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <path d="M32 30 Q28 36 24 40" stroke="#e8dff0" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <path d="M68 24 Q74 32 80 34" stroke="#e8dff0" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <path d="M82 8 Q90 10 96 6" stroke="#e8dff0" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <circle cx="8" cy="0" r="3.5" fill="#faf6f0"/>
+    <circle cx="32" cy="-8" r="3" fill="#c9b8db"/>
+    <circle cx="28" cy="12" r="3" fill="#c9b8db"/>
+    <circle cx="56" cy="-18" r="2.5" fill="#a48cc0"/>
+    <circle cx="52" cy="10" r="3.5" fill="#faf6f0"/>
+    <circle cx="78" cy="-14" r="2.5" fill="#c9b8db"/>
+    <circle cx="32" cy="30" r="2" fill="#e8dff0"/>
+    <circle cx="68" cy="24" r="2.5" fill="#a48cc0"/>
+    <circle cx="82" cy="8" r="2" fill="#e8dff0"/>
+    <circle cx="-4" cy="-14" r="1.5" fill="#e8dff0"/>
+    <circle cx="-6" cy="12" r="1.5" fill="#e8dff0"/>
+    <circle cx="48" cy="-34" r="1.5" fill="#e8dff0"/>
+    <circle cx="90" cy="-28" r="1.5" fill="#e8dff0"/>
+    <circle cx="24" cy="40" r="1.5" fill="#e8dff0"/>
+    <circle cx="80" cy="34" r="1.5" fill="#e8dff0"/>
+    <circle cx="96" cy="6" r="1.5" fill="#e8dff0"/>
   </g>
-  <text x="110" y="62" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="800" font-size="42" fill="#faf6f0" letter-spacing="-0.03em">rhizoma</text>
+  <text x="130" y="64" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="800" font-size="44" fill="#faf6f0" letter-spacing="-0.03em">rhizoma</text>
 </svg>
