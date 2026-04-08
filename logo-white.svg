@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 100" fill="none">
+  <!-- Labyrinth mark — white version for dark backgrounds -->
+  <g transform="translate(50, 50)">
+    <path d="M0 -38 A38 38 0 1 1 -38 0 L-38 -8" stroke="#faf6f0" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M0 -26 A26 26 0 1 1 -26 0 L-26 -8" stroke="#c9b8db" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M0 -14 A14 14 0 1 1 -14 0 L-14 -8" stroke="#a48cc0" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="4" fill="#c9b8db"/>
+    <line x1="3" y1="-3" x2="10" y2="-26" stroke="#e8dff0" stroke-width="2" stroke-linecap="round"/>
+    <line x1="4" y1="1" x2="22" y2="14" stroke="#e8dff0" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <text x="110" y="62" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="800" font-size="42" fill="#faf6f0" letter-spacing="-0.03em">rhizoma</text>
+</svg>

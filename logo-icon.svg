@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Labyrinth mark — concentric spiral paths -->
+  <g transform="translate(50, 50)">
+    <!-- Layer 1: outermost -->
+    <path d="M0 -38 A38 38 0 1 1 -38 0 L-38 -8" stroke="#1a0a2e" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Layer 2 -->
+    <path d="M0 -26 A26 26 0 1 1 -26 0 L-26 -8" stroke="#553080" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Layer 3 -->
+    <path d="M0 -14 A14 14 0 1 1 -14 0 L-14 -8" stroke="#7a5aa0" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Center -->
+    <circle cx="0" cy="0" r="4.5" fill="#553080"/>
+    <!-- Root branches -->
+    <line x1="3" y1="-3" x2="10" y2="-26" stroke="#a48cc0" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="4" y1="1" x2="22" y2="14" stroke="#c9b8db" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>
